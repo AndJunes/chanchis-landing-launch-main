@@ -23,9 +23,15 @@ export const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          <Button variant="hero" size="sm">
-            Comenzar gratis
-          </Button>
+          <a
+            href="https://farcaster.xyz/miniapps/cid2j1MItv1P/chanchis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="hero" size="sm">
+              Comenzar gratis
+            </Button>
+          </a>
         </div>
       </div>
     </nav>

@@ -46,15 +46,29 @@ export const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-              <Button variant="hero" size="xl">
-                <MaterialIcon name="rocket_launch" />
-                Empezar ahora
-              </Button>
-              <Button variant="hero-outline" size="xl">
-                <MaterialIcon name="play_circle" />
-                Ver cómo funciona
-              </Button>
-            </div>
+                <a
+                  href="https://farcaster.xyz/miniapps/cid2j1MItv1P/chanchis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="hero" size="xl">
+                    <MaterialIcon name="rocket_launch" />
+                    Empezar ahora
+                  </Button>
+                </a>
+
+                <a
+                  href="https://youtu.be/SKHMYt4Le7U?si=UOHdG7nNvhSP5iDa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button variant="hero-outline" size="xl">
+                    <MaterialIcon name="play_circle" />
+                    Ver cómo funciona
+                  </Button>
+                </a>
+              </div>
+
 
             <div className="flex items-center justify-center lg:justify-start gap-6 pt-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
